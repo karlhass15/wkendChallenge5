@@ -1,0 +1,35 @@
+h2 {
+    font-size: 30px;
+
+}
+.jumbotron {
+    img
+}
+body {
+    background-color: #00b3ee;
+}
+
+#personMessage {
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #c4e3f3;
+}
+
+#personMessage {
+    background-color:#3fffd5 ;
+}
+#inputMessage {
+    background-color:#3fffd5 ;
+}
+
+#messageContainer {
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color:#c4e3f3 ;
+}
+
+.col-md-3 {
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color:#3fffd5
+}
