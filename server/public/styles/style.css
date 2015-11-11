@@ -1,33 +1,72 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
 h2 {
     font-size: 30px;
-
+    margin: 15px;
+}
+img {
+    margin-left: 15px;
+}
+#personName {
+    margin: 10px 10px 0 10px;
+    border-radius: 3px;
+    width: 150px;
+}
+#inputMessage {
+    margin: 10px 10px 0 10px;
+    border-radius: 3px;
+    width: 150px;
 }
 
 body {
-    background-color: #00b3ee;
+    background-color: #68dfff;
 }
 
-#personMessage {
-    border: solid 2px black;
-    border-radius: 5px;
+#personName {
+    border-radius: 3px;
+    width: 25%;
     background-color: #c4e3f3;
 }
 
 #personMessage {
-    background-color:#3fffd5 ;
+    border: solid 1px #47627f;
+    border-radius: 3px;
+    background-color: #54ffd6;
+    margin-left: 50px;
+    margin-right: 10px;
+    width: 950px;
+    height: 175px;
+    display: inline-block;
 }
 #inputMessage {
-    background-color:#3fffd5 ;
+    width: 25%;
+    min-width: 200px;
+    height: 150px;
+    background-color: #c4e3f3;
+
 }
 
 #messageContainer {
-    border: solid 2px black;
-    border-radius: 5px;
+    border: solid 1px #47627f;
+    border-radius: 3px;
     background-color:#c4e3f3 ;
+    margin-left: 50px ;
+    overflow: auto;
+    width: 950px;
+    display: inline-block;
 }
 
 .col-md-3 {
     border: solid 2px black;
-    border-radius: 5px;
-    background-color:#3fffd5
+    border-radius: 3px;
+    background-color: #54ffd6;
+    font-size: 15px;
+    margin: 5px 15px 5px 15px;
+
+}
+
+.jumbotron {
+height: 150px;
 }
